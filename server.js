@@ -33,7 +33,7 @@ app.post('/create-checkout-session', express.json(), async (req, res) => {
         price_data: {
           currency: 'eur',
           product_data: { name: 'Accès Pokédex' },
-          unit_amount: 285,
+          unit_amount: 260,
         },
         quantity: 1,
       }],
